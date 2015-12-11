@@ -1,0 +1,365 @@
+@charset "UTF-8";
+/* CSS Document */
+/*-------Font Declaration Styles-------*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/*-------Globals-------*/
+
+body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing: antialiased; font-family: 'Source Sans Pro', sans-serif;}
+
+a{cursor:pointer;}
+
+section{min-width:1000px;}
+
+.content-wrapper{
+	max-width:977px;
+	min-width:977px;
+	margin:0 auto;
+	position:relative;
+}
+
+/*-------Header Placeholder Styles-------*/
+
+header{
+	text-align:center;
+	background-image:url(../img/header-bg.png);
+	background-repeat:repeat-x;
+	width:100%;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*---Testimonial Section Styles---*/
+
+
+.testimonials {
+    min-height: 422px;
+	margin-bottom: 0;
+	background: rgba(117,64,153,1);
+	background: -moz-linear-gradient(top, rgba(117,64,153,1) 0%, rgba(117,64,153,1) 8%, rgba(222,78,83,1) 51%, rgba(243,214,127,1) 95%, rgba(243,214,127,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117,64,153,1)), color-stop(8%, rgba(117,64,153,1)), color-stop(51%, rgba(222,78,83,1)), color-stop(95%, rgba(243,214,127,1)), color-stop(100%, rgba(243,214,127,1)));
+	background: -webkit-linear-gradient(top, rgba(117,64,153,1) 0%, rgba(117,64,153,1) 8%, rgba(222,78,83,1) 51%, rgba(243,214,127,1) 95%, rgba(243,214,127,1) 100%);
+	background: -o-linear-gradient(top, rgba(117,64,153,1) 0%, rgba(117,64,153,1) 8%, rgba(222,78,83,1) 51%, rgba(243,214,127,1) 95%, rgba(243,214,127,1) 100%);
+	background: -ms-linear-gradient(top, rgba(117,64,153,1) 0%, rgba(117,64,153,1) 8%, rgba(222,78,83,1) 51%, rgba(243,214,127,1) 95%, rgba(243,214,127,1) 100%);
+	background: linear-gradient(to bottom, rgba(117,64,153,1) 0%, rgba(117,64,153,1) 8%, rgba(222,78,83,1) 51%, rgba(243,214,127,1) 95%, rgba(243,214,127,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#754099', endColorstr='#f3d67f', GradientType=0 );
+}
+
+.testimonial-wrapper {
+    top: 120px;
+}
+
+.testimonial-slide{
+	color:#fff;
+	background-color:transparent !important;
+}
+
+.testimonial-slide .testimonial{
+	font-size:24px;
+}
+
+.testimonial-slide .user-name{
+	padding-top:15px;
+	font-size:18px;
+}
+
+.testimonial-slide span {
+    background-color: #fff;
+    display: block;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    width: 110px;
+}
+
+.user-type-wrapper {
+    display: inline-block;
+    padding-top: 40px;
+    vertical-align: top;
+    width: 70%;
+}
+
+.user-avatar {
+    display: inline-block;
+    text-align: center;
+    width: 27%;
+}
+
+.testimonial-nav-wrap {
+    position: absolute;
+    right: 45px;
+    top: 306px;
+    z-index: 10;
+}
+
+.testimonial-nav-wrap  div{
+	display:inline-block;
+	margin-left:45px;
+	cursor:pointer;
+}
+
+
+/*---Stream Options Styles---*/
+
+
+.stream-options {
+    background-color: #ffffff;
+    font-family: "Avenir LT W01_65 Medium1475532","Avenir",sans-serif;
+    min-height: 280px;
+    text-align: center;
+    width: 100%;
+}
+
+.stream-options .content-wrapper {
+    height: 320px;
+    position: relative;
+    top: 0;
+}
+.stream-options h2{
+	color:#ffffff;
+	font-size:24px;
+	font-family:'Avenir LT W01_65 Medium1475532', 'Avenir', sans-serif;
+}
+
+.stream-hero {
+    display: inline-block;
+    text-align: center;
+}
+
+.stream-hero img{
+	width: 672px;
+	height:auto;
+}
+
+.stream-options p {
+    color: #ffffff;
+    font-family: source sans pro;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 50%;
+	max-width:410px;
+}
+
+.stream-logos{
+	margin-top:25px;
+}
+
+.stream-logos a {
+    background-image: url("../img/download-logos-retina.png");
+    background-repeat: no-repeat;
+    background-size: 697px auto;
+    display: inline-block;
+    height: 45px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 155px;
+}
+
+.stream-logos #apple-tv-logo {
+    background-position: 45px center;
+}
+
+.stream-logos #roku-logo {
+    background-position: -98px center;
+}
+
+.stream-logos #ios-logo {
+    background-position: -253px center;
+    width: 110px;
+}
+
+.stream-logos #googlecast-logo {
+    background-position: -372px center;
+    width: 160px;
+}
+
+.stream-logos #airplay-logo {
+    background-position: -562px center;
+}
+
+.stream-content{
+background: rgba(255,148,90,1);
+background: -moz-linear-gradient(left, rgba(255,148,90,1) 0%, rgba(222,78,83,1) 49%, rgba(117,64,153,1) 92%, rgba(117,64,153,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,148,90,1)), color-stop(49%, rgba(222,78,83,1)), color-stop(92%, rgba(117,64,153,1)), color-stop(100%, rgba(117,64,153,1)));
+background: -webkit-linear-gradient(left, rgba(255,148,90,1) 0%, rgba(222,78,83,1) 49%, rgba(117,64,153,1) 92%, rgba(117,64,153,1) 100%);
+background: -o-linear-gradient(left, rgba(255,148,90,1) 0%, rgba(222,78,83,1) 49%, rgba(117,64,153,1) 92%, rgba(117,64,153,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,148,90,1) 0%, rgba(222,78,83,1) 49%, rgba(117,64,153,1) 92%, rgba(117,64,153,1) 100%);
+background: linear-gradient(to right, rgba(255,148,90,1) 0%, rgba(222,78,83,1) 49%, rgba(117,64,153,1) 92%, rgba(117,64,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff945a', endColorstr='#754099', GradientType=1 );
+padding: 115px 0px;
+	
+}
+
+/*-------Footer Styles-------*/
+
+footer ul{
+	display:inline-block;
+	list-style:none;
+	vertical-align:top;
+	margin-top:85px;
+	width: 19.75%;
+}
+
+footer ul li ul {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+}
+footer li, footer li a {
+    color: #5c738a;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+	display:block;
+}
+footer ul h3{
+	font-weight:bold;
+	font-family:'Avenir LT W01_65 Medium1475532', 'Avenir', sans-serif;
+}
+
+footer a{
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+footer a:after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .35s ease, background-color .35s ease;
+}
+
+footer ul .footer-child{
+	max-height:0px;
+	padding-left:10px;
+	overflow:hidden;
+	margin-top:0px;
+	transition:all ease .25s;
+}
+
+footer ul.footer-child.active {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    max-height: 100px !important;
+    width: 100%;
+}
+
+.footer-icon {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.25s ease 0s;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-icon.active{
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+
+.footer-parent .footer-icon{
+	float:left;
+	width:5%;
+}
+
+.footer-parent a{
+	display:inline-block;
+	width:150px;
+}
+
+.footer-parent{
+	
+}
+
+/*---About Infographic Section---*/
+
+.chart{
+	text-align:center;
+	padding-bottom:50px;
+}
+
+.chart-header {
+    background-color: #f3f5f6;
+    height: auto;
+    min-width: 976px;
+    padding: 55px 0 20px;
+    position: relative;
+    width: 100%;	
+}
+.chart-header .down-arrow{
+	   top: 100%;
+       left: 50%;
+       border: solid transparent;
+       content: " ";
+       height: 0;
+       width: 0;
+       position: absolute;
+       pointer-events: none;
+       border-color: rgba(243, 245, 246, 0);
+       border-top-color: #f3f5f6;
+       border-width: 30px;
+       margin-left: -30px;
+}
+
+.chart-header h2 {
+	font-family: "Avenir LT W01_65 Medium1475532","Avenir",sans-serif;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.chart-header p{
+	color:#5c738a;
+	font-size:18px;
+	font-family:'Avenir LT W01_65 Medium1475532', 'Avenir', sans-serif;
+	margin-top:-4px;
+	margin-right:auto;
+	margin-left:auto;
+    width: 80%;
+}
+
+.chart-img{
+	margin-top:75px;
+	margin-bottom:40px;
+}
+
+.chart-img img {
+    height: 607px;
+    width: 607px;
+}
+
+/*---About History Section---*/
+
+.about-more {
+    background-image: url("../img/gaia-history-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-more p{
+	font-size:17px;
+	line-height:25px;
+}
+
+.about-more-type {
+    left: 0;
+    padding: 110px 0;
+    width: 60%;
+}
+
+.about-more-img-wrap{
+	padding-left:85px;
+	margin-bottom:20px;
+}
+
+.about-more-img-wrap img{
+	width:286px
+}
